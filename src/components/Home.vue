@@ -3,8 +3,8 @@
     <!--头部-->
     <el-header>
       <div>
-        <img src="../assets/jiao.jpg" alt="">
-        <span>小焦电商管理系统</span>
+        <img src="../assets/jiao.png" alt="">
+        <span>小焦超市管理系统</span>
      </div>
       <el-button type="info" @click="logout">退出</el-button>
     </el-header>
@@ -53,9 +53,9 @@
           iconsObj : {
             '125' : 'iconfont icon-yonghuguanli',
             '103' : 'iconfont icon-quanxian',
-            '101': 'iconfont icon-shangpinguanli',
-            '102': 'iconfont icon-icon',
-            '145': 'iconfont icon-shuju'
+            '101' : 'iconfont icon-shangpinguanli',
+            '102' : 'iconfont icon-icon',
+            '145' : 'iconfont icon-shuju'
           },
           //是否折叠
           isCollapse : false,
@@ -108,9 +108,10 @@
       align-items: center;
       img {
         width: 100px;
+        margin-left: 50px;
       }
       span {
-        margin-left: 5px;
+        margin-left: 50px;
       }
     }
   }
